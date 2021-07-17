@@ -7,7 +7,7 @@ const provider = new HDWalletProvider(
     ' ',
     //Enter Infura Ethereum API(Rinkeby for Testing)
     //It should look like this https://rinkeby.infura.io/...
-    ''
+    ' '
 );
 
 const web3 = new Web3(provider);
