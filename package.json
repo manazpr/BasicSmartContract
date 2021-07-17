@@ -1,0 +1,26 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "ganache": "^6.4.4",
+    "ganache-cli": "^6.12.2",
+    "node-gyp-build": "^4.2.3",
+    "solc": "^0.4.17",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.4.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.2",
+    "should": ">= 0.0.1"
+  }
+}
